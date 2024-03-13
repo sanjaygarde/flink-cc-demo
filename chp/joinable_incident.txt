@@ -1,0 +1,1 @@
+{"incident_number": "A0795", "hour": 8, "type": "Vehicle Collision", "location": "Sierra Hwy / Vasquez Canyon Rd", "location_desc": "BETWEEN CHESEBORO and 70TH ST E", "city": "Antelope Valley", "date": "24-02-2024"}

@@ -1,0 +1,104 @@
+{
+    "properties": {
+      "claimAmount": {
+        "properties": {
+          "injury": {
+            "type": "integer"
+          },
+          "property": {
+            "type": "integer"
+          },
+          "total": {
+            "type": "integer"
+          },
+          "vehicle": {
+            "type": "integer"
+          }
+        },
+        "type": "object"
+      },
+      "claimDatetime": {
+        "type": "string"
+      },
+      "claimId": {
+        "type": "string"
+      },
+      "collision": {
+        "properties": {
+          "numberVehiclesInvolved": {
+            "type": "integer"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "driver": {
+        "properties": {
+          "age": {
+            "type": "number"
+          },
+          "insuredRelationship": {
+            "type": "string"
+          },
+          "licenseIssueDate": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "email": {
+        "format": "email",
+        "type": "string"
+      },
+      "incident": {
+        "properties": {
+          "city": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "hour": {
+            "type": "integer"
+          },
+          "location": {
+            "type": "string"
+          },
+          "location_desc": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "monthsAsCustomer": {
+        "type": "integer"
+      },
+      "numberWitnesses": {
+        "type": "integer"
+      },
+      "pendingDocuments": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "policyId": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "suspiciousActivity": {
+        "type": "boolean"
+      }
+    },
+    "type": "object"
+  }

@@ -1,0 +1,15 @@
+{"incident_number": "A2581", "hour": 18,  "type": "Traffic Hazard",  "location": "I5 N / I10 E", "location_desc": "NB 5 JNO 10", "city": "Central LA", "date": "24-02-2024" }
+{"incident_number": "A2582", "hour": 18, "type": "Hit and Run w/Injuries", "location": "Sr110 S / I10 W", "location_desc": "1023 - 579 W 31ST - STARBUCKS***", "city": "Central LA", "date": "24-02-2024"}
+{"incident_number": "A2580", "hour": 18, "type": "Trfc Collision-No Inj", "location": "I605 N / Valley Blvd", "location_desc": "NB 605 JSO VALLEY", "city": "East LA", "date": "24-02-2024"}
+{"incident_number": "A2531", "hour": 18, "type": "Trfc Collision-1141 Enrt", "location": "0 Colorado State Frwy Ext", "location_desc": "WB COLORADO FWY EXTENSTION TO NB 5", "city": "Altadena", "date": "24-02-2024"}
+{"incident_number": "A2522", "hour": 18, "type": "Trfc Collision-1141 Enrt", "location": "Sierra Hwy / Vasquez Canyon Rd", "location_desc": "AT", "city": "Newhall", "date": "24-02-2024"}
+{"incident_number": "A2516", "hour": 18, "type": "Trfc Collision-No Inj", "location": "I105 E / Wo Vermont Ave", "location_desc": "I105 E / WO VERMONT AVE", "city": "West LA", "date": "24-02-2024"}
+{"incident_number": "A2511", "hour": 18, "type": "Traffic Hazard", "location": "US101 E / VALLEY CIRCLE BLVD", "location_desc": "JWO", "city": "West Valley", "date": "24-02-2024"}
+{"incident_number": "A2448", "hour": 18, "type": "Traffic Break", "location": "Sr60 E / Garey Ave", "location_desc": "EB 60 AT GAREY AVE", "city": "Baldwin Park", "date": "24-02-2024"}
+{"incident_number": "A2419", "hour": 17, "type": "Trfc Collision-No Inj", "location": "I605 S / Rose Hills Rd", "location_desc": "SB 605 AT Rose Hills", "city": "Santa Fe Springs", "date": "24-02-2024"}
+{"incident_number": "A2352", "hour": 17, "type": "Assist with Construction", "location": "Sr14 S / Ave I", "location_desc": "NB and SB", "city": "Antelope Valley", "date": "24-02-2024"}
+{"incident_number": "A1942", "hour": 15, "type": "CLOSURE of a Road", "location": "I405 N / Sr2", "location_desc": "I405 N / SR2", "city": "West LA", "date": "24-02-2024"}
+{"incident_number": "A0795", "hour": 8, "type": "CLOSURE of a Road", "location": "Mount Emma Rd / Cheseboro Rd", "location_desc": "BETWEEN CHESEBORO and 70TH ST E", "city": "Antelope Valley", "date": "24-02-2024"}
+{"incident_number": "A0788", "hour": 8, "type": "CLOSURE of a Road", "location": "E Palmdale Blvd / 87th St E", "location_desc": "PALMDALE BETWEEN 87TH and 70TH ST E", "city": "Antelope Valley", "date": "24-02-2024"}
+{"incident_number": "A0698", "hour": 7, "type": "Mud/Dirt/Rock", "location": "Malibu Canyon Rd / Tunnel", "location_desc": "SB MALIBU CANYON JNO TUNNEL", "city": "West Valley", "date": "24-02-2024"}
+{"incident_number": "A0005", "hour": 0, "type": "Road/Weather Conditions", "location": "2901 W Broadway", "location_desc": "LACO ROAD / WEATHER CONDITIONS", "city": "LA", "date": "24-02-2024"}

@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "city": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "hour": {
+      "type": "integer"
+    },
+    "incident_number": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "location_desc": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "incident_number",
+    "hour",
+    "type",
+    "location",
+    "location_desc",
+    "city",
+    "date"
+  ],
+  "type": "object"
+}
