@@ -21,10 +21,13 @@ Of course you will need to use another Confluent Cloud feature, the Stream Share
 `SELECT * FROM claims
   INNER JOIN CHP_Sanjay.incidents
   ON 
-  claims.incident.`date` = CHP_Sanjay.incidents.`date` 
-  AND claims.incident.`hour` = CHP_Sanjay.incidents.`hour` 
-  AND claims.incident.location = CHP_Sanjay.incidents.location
-  AND claims.incident.city = CHP_Sanjay.incidents.city;`
+    claims.incident.`date` = CHP_Sanjay.incidents.`date` 
+  AND 
+    claims.incident.`hour` = CHP_Sanjay.incidents.`hour` 
+  AND 
+    claims.incident.location = CHP_Sanjay.incidents.location
+  AND 
+    claims.incident.city = CHP_Sanjay.incidents.city;`
 
   Nothing will happen as we haven't published joinable data yet.
   * Publish joinable incident:<br> Publish joinable incident with [publish_joinable_incident.sh](./publish_joinable_incident.sh)
