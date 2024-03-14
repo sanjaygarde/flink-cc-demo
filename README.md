@@ -29,6 +29,6 @@ Of course you will need to use another Confluent Cloud feature, the Stream Share
   Nothing will happen as we haven't published joinable data yet.
   * Publish joinable incident:<br> Publish joinable incident with [publish_joinable_incident.sh](./publish_joinable_incident.sh)
   * Publish joinable claim:<br> Publish joinable claim with [publish_joinable_claim.sh](./publish_joinable_claim.sh)
-  * A single record should show up:
+  * A single record should show up: 
   
 
