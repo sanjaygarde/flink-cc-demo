@@ -2,7 +2,7 @@
 
 A simple demo for cross-cluster joins between two Kafka clusters using Flink on Confluent Cloud. This cross-cluster join is not possible with ksqlDB.
 
-## Use Case:<br>
+## The Use Case:<br>
 An Insurance company can validate the authenticity of the submitted claims in real-time by cross-referencing (SQL join) it with traffic incidents (weather, road repairs, collisons etc) published by an organization like California Highway Patrol(CHP) as here: https://cad.chp.ca.gov/traffic.aspx?ddlComCenter=BFCC . 
 
 This data can be published to a Apache Kafka topic 'incidents' hosted by an organization like CHP. This data can be joined with another topic 'claims' hosted by an insurance company that captures claims submitted with FlinkSQL joins to validate the authenticity of the claims in real-time .
