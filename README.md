@@ -30,5 +30,5 @@ Of course you will need to use another Confluent Cloud feature, the Stream Share
   * Publish joinable incident:<br> Publish joinable incident with [publish_joinable_incident.sh](./publish_joinable_incident.sh)
   * Publish joinable claim:<br> Publish joinable claim with [publish_joinable_claim.sh](./publish_joinable_claim.sh)
   * A single record should show up: 
-  
+  ![alt text](./docs/images/Claim_Processing_Result.jpeg)
 
