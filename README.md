@@ -9,3 +9,9 @@ This data can be published to a Apache Kafka topic 'incidents' hosted by an orga
 
 Of course you will need to use another Confluent Cloud feature, the Stream Shares, https://docs.confluent.io/cloud/current/stream-sharing/index.html to expose topics across organizations. The scope of this demo does not include Stream Shares.
 
+![alt text](./docs/images/Claim-Processing-Demo.jpeg)
+
+## Steps:<br>
+* Cluster setup using Terraform: Set up the two clusters (CHP & InsuranceCo) in the Confluent cloud using [main.tf](./terraform/main.tf) file in the terraform folder. Make sure that you add the tfvars file for the values of the variables defined [variable.tf](./terraform/variables.tf) file. The main.tf assumes you are importing a Confluent Cloud environment and schema registry, if not you can always create a new environment and a schem registry as shown in the Confluent Terraform examples shown [here.](https://github.com/confluentinc/terraform-provider-confluent/tree/master/examples)
+* publish incidents to the CHP cluster using [publish_incident.sh](./publish_incident.sh)
+* publish claims to the InsuranceCo cluster using [publish_claims.sh](./publish_claims.sh)
