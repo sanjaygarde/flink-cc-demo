@@ -1,0 +1,8 @@
+SELECT * 
+FROM claims 
+INNER JOIN CHP_Sanjay.incidents
+ON 
+claims.incident.`date` = CHP_Sanjay.incidents.`date` 
+AND claims.incident.`hour` = CHP_Sanjay.incidents.`hour` 
+AND claims.incident.location = CHP_Sanjay.incidents.location
+AND claims.incident.city = CHP_Sanjay.incidents.city;
