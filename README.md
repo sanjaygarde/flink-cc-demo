@@ -16,7 +16,7 @@ Of course you will need to use another Confluent Cloud feature, the Stream Share
 * Publish incidents:<br>publish incidents to the CHP cluster using [publish_incidents.sh](./publish_incidents.sh)
 * Publish claims:<br> publish claims to the InsuranceCo cluster using [publish_claims.sh](./publish_claims.sh)
 * Create Flink compute pool:<br> At this time create your Flink compute pool as described [here.](https://docs.confluent.io/cloud/current/flink/get-started/quick-start-cloud-console.html). No script is provided for this as it is expected that you will navigate to the Confluent Cloud page and talk through the process like what is a Flink compute pool, What is a Flink SQL workspace, CFU etc.
-* In your SQL workspace type the query below and hit the run button.
+* Run SQL statement with the join:<br>In your SQL workspace type the query below and hit the run button.
 
 `SELECT * FROM claims
   INNER JOIN CHP_Sanjay.incidents
@@ -28,5 +28,7 @@ Of course you will need to use another Confluent Cloud feature, the Stream Share
 
   Nothing will happen as we haven't published joinable data yet.
   * Publish joinable incident:<br> Publish joinable incident with [publish_joinable_incident.sh](./publish_joinable_incident.sh)
+  * Publish joinable claim:<br> Publish joinable claim with [publish_joinable_claim.sh](./publish_joinable_claim.sh)
+  * A single record should show up:
   
 
