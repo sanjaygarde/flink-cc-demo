@@ -7,7 +7,7 @@ An Insurance company can validate the authenticity of the submitted claims in re
 
 This data can be published to a Apache Kafka topic 'incidents' hosted by an organization like CHP. This data can be joined with another topic 'claims' hosted by an insurance company that captures claims submitted with FlinkSQL joins to validate the authenticity of the claims in real-time .
 
-Of course you will need to use another Confluent Cloud feature, the Stream Shares, https://docs.confluent.io/cloud/current/stream-sharing/index.html to expose topics across organizations. The scope of this demo does not include Stream Shares.
+Of course you will need to use another Confluent Cloud feature, the Stream Shares, https://docs.confluent.io/cloud/current/stream-sharing/index.html to expose topics across organizations. The scope of this demo does not include Stream Shares. Note that Flink only work with clusters in the same region.
 
 ![alt text](./docs/images/Claim-Processing-Demo.jpeg)
 
